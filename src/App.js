@@ -20,6 +20,9 @@ function App() {
         </a>
       </header>
       <Welcome name="Kathrin"></Welcome>
+      <Welcome name="Sarah"></Welcome>
+      <Welcome name="Edith"></Welcome>
+      <Welcome name="Peter"></Welcome>
     </div>
   );
 }
