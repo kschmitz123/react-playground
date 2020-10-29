@@ -1,6 +1,7 @@
 export default function HelloWorld() {
   const name = "Kathrin";
-  const element = <h1>Hello, {name}</h1>;
-
-  return <div> {element}</div>;
+  if (name) {
+    return <h1>Hello, {name}</h1>;
+  }
+  return <div> Hello, Stranger</div>;
 }
