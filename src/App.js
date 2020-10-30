@@ -17,6 +17,13 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <p>React is pretty flexible but it has a single strict rule:</p>
+        <h2>
+          All React components must act like pure functions with respect to
+          their props.
+        </h2>
+      </div>
     </div>
   );
 }
